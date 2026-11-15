@@ -1,0 +1,46 @@
+{
+  "Ridge Regression": {
+    "best_params": {
+      "target_model__regressor__alpha": 100.0
+    },
+    "best_cv_mape": 0.6045954989458803
+  },
+  "Linear SVR": {
+    "best_params": {
+      "target_model__regressor__epsilon": 0.01,
+      "target_model__regressor__C": 10.0
+    },
+    "best_cv_mape": 0.6404460394210008
+  },
+  "MLP Neural Network": {
+    "best_params": {
+      "target_model__regressor__hidden_layer_sizes": [
+        64
+      ],
+      "target_model__regressor__alpha": 0.01
+    },
+    "best_cv_mape": 1.0918039534682706
+  },
+  "Random Forest": {
+    "best_params": {
+      "target_model__regressor__n_estimators": 35,
+      "target_model__regressor__min_samples_leaf": 1,
+      "target_model__regressor__max_features": 0.7,
+      "target_model__regressor__max_depth": 10
+    },
+    "best_cv_mape": 0.33727334697253236
+  },
+  "XGBoost": {
+    "best_params": {
+      "target_model__regressor__subsample": 1.0,
+      "target_model__regressor__reg_lambda": 4.0,
+      "target_model__regressor__reg_alpha": 0.1,
+      "target_model__regressor__n_estimators": 100,
+      "target_model__regressor__min_child_weight": 5,
+      "target_model__regressor__max_depth": 3,
+      "target_model__regressor__learning_rate": 0.06,
+      "target_model__regressor__colsample_bytree": 1.0
+    },
+    "best_cv_mape": 0.3415401863775332
+  }
+}

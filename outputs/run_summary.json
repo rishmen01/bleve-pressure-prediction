@@ -1,0 +1,27 @@
+{
+  "random_state": 42,
+  "target_column": "Target Pressure (bar)",
+  "cleaned_labelled_rows": 9990,
+  "competition_test_rows": 3203,
+  "row_missing_threshold": 0.4,
+  "remove_target_iqr_outliers": false,
+  "iqr_multiplier": 1.5,
+  "train_rows_after_outlier_treatment": 6985,
+  "validation_rows": 1512,
+  "internal_test_rows": 1493,
+  "cv_folds": 2,
+  "search_iterations_per_tuned_model": 2,
+  "selected_model": "Random Forest",
+  "validation_metrics": {
+    "MAPE": 0.28375316773375187,
+    "R2": 0.8396673274616467,
+    "MAE": 0.09465038432117118,
+    "RMSE": 0.2117831788490531
+  },
+  "internal_test_metrics": {
+    "MAPE": 0.2581174494574748,
+    "R2": 0.8370259396736313,
+    "MAE": 0.09001534728626061,
+    "RMSE": 0.19004258957792267
+  }
+}
